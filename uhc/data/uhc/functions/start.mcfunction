@@ -28,7 +28,7 @@ scoreboard players reset @a deaths
 effect give @a[team=!spectators] minecraft:regeneration 10 255
 effect give @a[team=!spectators] minecraft:saturation 10 255
 
-spreadplayers 0 0 300 500 true @a[team=!spectators]
+spreadplayers 0 0 300 2000 true @a[team=!spectators]
 
 worldborder damage amount 1
 
