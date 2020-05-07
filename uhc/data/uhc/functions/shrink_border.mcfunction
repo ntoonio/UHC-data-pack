@@ -1,4 +1,4 @@
-playsound minecraft:ui.toast.challenge_complete player @a
+execute at @a run playsound minecraft:ui.toast.challenge_complete master @a
 
 title @a times 20 100 20
 title @a subtitle {"text":"Från 5000 till 100 bred under 60 min","color":"gold"}

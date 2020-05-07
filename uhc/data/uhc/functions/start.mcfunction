@@ -3,7 +3,8 @@ time set day
 
 worldborder set 5000
 worldborder center 0 0
-worldborder damage amount 0
+worldborder damage amount 1
+worldborder warning distance 5
 
 defaultgamemode spectator
 team join spectators @a[team=]

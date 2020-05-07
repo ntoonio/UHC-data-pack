@@ -2,7 +2,6 @@ gamerule naturalRegeneration false
 gamerule announceAdvancements false
 gamerule doInsomnia false
 gamerule spawnRadius 1
-# if same as spawn protection this should be 15
 gamerule doDaylightCycle false
 time set day
 
@@ -18,6 +17,7 @@ setblock 69420 201 69420 minecraft:air
 setworldspawn 69420 201 69420
 spawnpoint @a 69420 201 69420
 
+worldborder warning distance 0
 worldborder center 69420 69420
 worldborder set 15
 
